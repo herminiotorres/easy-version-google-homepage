@@ -113,11 +113,11 @@ body {
   margin-top: 10px 50px;
 }
 
-.main-search input[type=text]:focus {
+.main-search input[type=text]:focus:hover {
   border: 1px solid #4285f4;
 }
 
-.main-search input[type=text]:hover {
+.main-search input[type=text]:hover  {
   border: 1px solid #a0a0a0;
 }
 
@@ -155,18 +155,21 @@ body {
   font-weight: bold;
   padding: 10px 20px;
   text-align: center;
+  outline: 0;
 }
 
 .btn input[type="submit"]:hover {
-  border: 1px solid #757575;
+  border: 1px solid #ccc;
   color: rgba(0, 0, 0, 0.8);
-  background-color: rgba(242, 242, 242, 0.3);
+  background-color: rgba(242, 242, 242, 0.5);
+  box-shadow: .2px .7px .1px #ddd;
 }
 
-.btn input[type="submit"]:active {
+.btn input[type="submit"]:active:hover {
   border: 1px solid #4285f4;
   color: rgba(0, 0, 0, 0.8);
   background-color: rgba(242, 242, 242, 0.3);
+  box-shadow: none;
 }
 
 .btn-search {
