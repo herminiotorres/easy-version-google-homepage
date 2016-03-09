@@ -14,16 +14,16 @@
     <!-- header -->
 
     <header class="container">
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-list-item grey">
+      <nav class="navbar navbar-right navbar-top">
+        <ul class="navbar-list-top">
+          <li class="navbar-list-item item-right-top font-normal grey-top">
             <a href="#">Herminio</a>
           </li>
-          <li class="navbar-list-item">
+          <li class="navbar-list-item item-right-top font-normal">
             <a href="#">Gmail</a>
           </li>
-          <li class="navbar-list-item">
-            <a href="#">Images</a>
+          <li class="navbar-list-item item-right-top font-normal">
+            <a href="#">Imagens</a>
           </li>
           <li class="navbar-list-item">
             <a href="#" class="grid">
@@ -42,13 +42,19 @@
           </li>
         </ul>
       </nav>
+
+      <section class="top-logo">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="Google" title="Google">
+          <small class="nationality">Brasil</small>
+        </div>
+      </section>
     </header>
 
     <!-- main -->
 
     <section class="container">
-      <img src="assets/images/logo.png" alt="Google" title="Google" class="main-logo">
-      <small class="main-nationality">Brasil</small>
+      <div class="main">
       <form action="https://www.google.com.br/?" method="get" class="main-form">
         <p class="main-search">
           <input type="text" name="q" title="Pesquisar" autofocus>
@@ -60,44 +66,45 @@
           <input type="submit" value="Estou com sorte" class="btn-lucky">
         </p>
       </form>
+      </div>
     </section>
 
-    <!-- footer
+    <!-- footer -->
 
-    <footer>
-
-      <nav class="navbar-left">
-        <ul class="navbar-left-list">
-          <li class="navbar-left-list-item grey">
+    <footer class="container bg-grey">
+      <div class="bottom">
+      <nav class="navbar navbar-left">
+        <ul class="navbar-list-bottom">
+          <li class="navbar-list-item item-right-bottom font-big grey-bottom">
             <a href="#">Publicidade</a>
           </li>
-          <li class="navbar-left-list-item">
+          <li class="navbar-list-item item-right-bottom font-big grey-bottom">
             <a href="#">Negócios</a>
           </li>
-          <li class="navbar-left-list-item">
+          <li class="navbar-list-item item-right-bottom font-big grey-bottom">
             <a href="#">Sobre</a>
           </li>
         </ul>
       </nav>
 
 
-      <nav class="navbar-right">
-        <ul class="navbar-right-list">
-          <li class="navbar-right-list-item">
+      <nav class="navbar navbar-right">
+        <ul class="navbar-list-bottom">
+          <li class="navbar-list-item item-left-bottom font-big grey-bottom">
             <a href="#">Privacidade</a>
           </li>
-          <li class="navbar-right-list-item">
+          <li class="navbar-list-item item-left-bottom font-big grey-bottom">
             <a href="#">Termos</a>
           </li>
-          <li class="navbar-right-list-item">
+          <li class="navbar-list-item item-left-bottom font-big grey-bottom">
             <a href="#">Configurações</a>
           </li>
-          <li class="navbar-right-list-item">
+          <li class="navbar-list-item item-left-bottom font-big grey-bottom">
             <a href="#">Usar Google.com</a>
           </li>
         </ul>
       </nav>
-
-    </footer>-->
+     </div>
+    </footer>
   </body>
 </html>
