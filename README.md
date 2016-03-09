@@ -15,3 +15,7 @@ $ python -m SimpleHTTPServer 3456
 ```
 
 then just open your default browser and access the URL: `http://localhost:3456`
+
+### Preview
+
+![preview-easy-version-google-homepage](easy-version-google-homepage.png "Preview Easy Version Google Homepage")
