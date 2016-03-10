@@ -77,7 +77,7 @@ body {
   display: inline-block;
 }
 
-.grey-top span {
+span.grey-top {
   color: rgba(34, 34, 34, 0.7);
 }
 
