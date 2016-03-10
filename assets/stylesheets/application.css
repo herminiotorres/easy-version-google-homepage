@@ -151,7 +151,7 @@ body {
 
 .main-form {
   position: relative;
-  width: 585px;
+  max-width: 585px;
   height: 100px;
   margin: 20px auto;
 }
@@ -184,13 +184,13 @@ form.main-form p {
 .keyboard {
   position: absolute;
   top: 12px;
-  left: 525px;
+  right: 40px;
 }
 
 .microphone {
   position: absolute;
   top: 8px;
-  left: 550px;
+  right: 12px;
 }
 
 .microphone img {
