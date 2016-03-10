@@ -77,9 +77,8 @@ body {
   display: inline-block;
 }
 
-.grey-top a {
+.grey-top span {
   color: rgba(34, 34, 34, 0.7);
-  cursor: default;
 }
 
 .grid,
