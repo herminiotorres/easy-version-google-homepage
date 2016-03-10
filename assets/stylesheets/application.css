@@ -79,7 +79,6 @@ body {
 
 .grey-top a {
   color: rgba(34, 34, 34, 0.7);
-  pointer-events: none;
   cursor: default;
 }
 
